@@ -9,7 +9,7 @@ created_at: "2024-07-29"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 8h**
+**Total hours spent: 14h**
 
 ## July 29th (4h)
 
@@ -28,10 +28,24 @@ I now started creating the schematics for the LEFT side. Schematic is now done a
 
 <img src="./pcb/LEFT/schematic_LEFT.png" />
 
-## July 30th (4h)
+## July 30th (10h)
 
 ### Session 1 (4h) creating left PCB
 
 Getting everything placed where I wanted took some time and until now I also havent fogured out how to rotate multiple elements in KiCad with a specific angele so rotating stuff also took a while :). Due to rotating the footprints for the keyswitches I was also abte to fit the ESP on teh back side of the board without needing to make the PCB even bigger than it already is.
 
 <img src="./journal files/2025-07-30/pcb.png" />
+
+###  Session 2 (6h) finishing left and right main PCBs
+
+I have now succesful finised creating the left and right PCBs. I was actually speedrunning the right side until I noticed that the ESP32 was wrongly mirrored so I needed to redo most of the routing. So in the end it took almost the same thime even a bit longer that the left side. Because my PCBs are relatively large I am not going to design a 3D printed housing becuse it somply wouldn't fit into my 3D printers build volume. I am instead going for a PCB "sandwitch" wit three PCBs per side. The main ones are already finished but I now need backplates and a front plate that is also going around the keyswitches.
+
+<p float="left">
+  <img src="./journal%20files/2025-07-30/pcb_LEFT.png" width=49% />
+  <img src="./journal%20files/2025-07-30/pcb_RIGHT.png" width=49% />
+</p>
+
+<p float="left">
+  <img src="./journal%20files/2025-07-30/multiboard_LEFT.png" width=49% />
+  <img src="./journal%20files/2025-07-30/multiboard_RIGHT.png" width=49% />
+</p>
