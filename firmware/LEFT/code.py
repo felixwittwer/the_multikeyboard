@@ -25,8 +25,8 @@ keyboard.modules.append(Layers())
 
 split = Split(
     split_side=SplitSide.LEFT,
-    uart_tx=board.IO1,
-    uart_rx=board.IO2,
+    uart_tx=board.IO43,
+    uart_rx=board.IO44,
     use_pio=True,
 )
 keyboard.modules.append(split)

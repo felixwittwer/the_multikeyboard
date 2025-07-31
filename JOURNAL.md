@@ -9,7 +9,7 @@ created_at: "2024-07-29"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 23h 30m**
+**Total hours spent: 24h**
 
 ## July 29th (4h)
 
@@ -73,3 +73,19 @@ Writing the actual firmware turned out to be a bit more diffcult than I thought 
 As of now there will be one key near the macro part that toggles between normal and steno mode. I also noticed that using the second usb port of the esp32-S3 isn't uspported by KMK natively so I need to modify the PCB a bit to have somethign like a beadphone jack to connect both sides via uart.
 
 <img src="./journal files/2025-07-31/firmware.png" />
+
+### Session 3 (1h 30m) fixing the pcbs and cad
+
+Adding a headphone jack wasn't as straigtforward as I though. First of all I needed to find matching schematics and also wanted to keeb the PCB shape the same so I don't have to do much ework on the case say so there needed to be done something on the shape.
+
+In the end a got it working and got it also integrated into my existing CAD model. I think it looks got for beeing retrofited afterwards.
+
+<p float="left">
+  <img src="./journal%20files/2025-07-31/pcb_jack_left.png" width=49% />
+  <img src="./journal%20files/2025-07-31/pcb_jack_right.png" width=49% />
+</p>
+
+<p float="left">
+  <img src="./journal%20files/2025-07-31/jack_left.png" width=49% />
+  <img src="./journal%20files/2025-07-31/jack_right.png" width=49% />
+</p>

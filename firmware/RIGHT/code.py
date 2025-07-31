@@ -35,8 +35,8 @@ keyboard.modules.append(oled)
 
 split = Split(
     split_side=SplitSide.RIGHT,
-    uart_tx=board.IO2,
-    uart_rx=board.IO1,
+    uart_tx=board.IO43,
+    uart_rx=board.IO44,
     use_pio=True,
 )
 keyboard.modules.append(split)

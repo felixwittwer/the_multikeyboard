@@ -489,7 +489,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../cad/option_1/multiboard_LEFT.step",
+      "step": "../../../cad/option_1/multiboard_LEFT_PCB.step",
       "svg": "",
       "vrml": ""
     },
