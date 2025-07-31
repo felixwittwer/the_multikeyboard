@@ -9,7 +9,7 @@ created_at: "2024-07-29"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 24h**
+**Total hours spent: 25h**
 
 ## July 29th (4h)
 
@@ -88,4 +88,23 @@ In the end a got it working and got it also integrated into my existing CAD mode
 <p float="left">
   <img src="./journal%20files/2025-07-31/jack_left.png" width=49% />
   <img src="./journal%20files/2025-07-31/jack_right.png" width=49% />
+</p>
+
+### Session 4 (1h) finalising firmware, creation production files
+
+The last step now was to recheck everything and create the required files for production. Besides that the project als need to fullfill the hackclub requirements for a submission. I also decided to make some cool renders to show off my keyboard that took so long to desing. Rotation the footprints in KiCad was anabsolute nightmare.
+
+Besides all of that I think I can submit my project now. I have check multiple times if I have everything.
+
+<p float="left">
+  <img src="./images/render/complete_from_right_close_render.png" width=49% />
+  <img src="./images/render/complete_from_left_close_render.png" width=49% />  
+</p>
+<p float="left">
+  <img src="./images/render/complete_from_left_render.png" width=49% />
+  <img src="./images/render/right_side_top_render.png" width=49% />
+</p>
+<p float="left">
+  <img src="./images/render/knurling_render.png" width=49% />
+  <img src="./images/render/oled_render.png" width=49% />
 </p>
