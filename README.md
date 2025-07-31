@@ -6,7 +6,7 @@
 
 </div>
 
-A custom keyboard that does it all. Standard keyboard, steno keyboard and macropad. It is a 115% keyboard that is a true alrounder. Besides all the features it excells your typing experience by hafing a slightly curved shape and some cool wrist rests that attatch magneticaly.
+A custom keyboard that does it all. Standard keyboard, steno keyboard and macropad. It is a 115% keyboard that is a true alrounder. Besides all the features it excells your typing experience by having a slightly curved shape and some cool wrist rests that attatch magneticaly.
 
 <img src="./images/the_multiboard.png" />
 
