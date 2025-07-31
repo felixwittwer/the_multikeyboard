@@ -9,7 +9,7 @@ created_at: "2024-07-29"
 
 Here you can see a documentation of the entire development process.
 
-**Total hours spent: 14h**
+**Total hours spent: 20h 30m**
 
 ## July 29th (4h)
 
@@ -26,7 +26,7 @@ As a starting point for my custom split keyboard I decided to take some rough me
 
 I now started creating the schematics for the LEFT side. Schematic is now done and I can start with designing the PCB. I think it is probably smart to design the PCB for the left side first and the copy the PCB and use it for the right side. So later on I only need to make few changes to the schematic and the PCB is almost finished for the right side. I will probably need to make 4 PCBs or more to also be like the front and backplate of the keyboard. The housing then will be pretty minimal. I mean I kind of like the look of it but we will see.
 
-<img src="./pcb/LEFT/schematic_LEFT.png" />
+<img src="./pcb/LEFT_Main/schematic_LEFT.png" />
 
 ## July 30th (10h)
 
@@ -36,7 +36,7 @@ Getting everything placed where I wanted took some time and until now I also hav
 
 <img src="./journal files/2025-07-30/pcb.png" />
 
-###  Session 2 (6h) finishing left and right main PCBs
+### Session 2 (6h) finishing left and right main PCBs
 
 I have now succesful finised creating the left and right PCBs. I was actually speedrunning the right side until I noticed that the ESP32 was wrongly mirrored so I needed to redo most of the routing. So in the end it took almost the same thime even a bit longer that the left side. Because my PCBs are relatively large I am not going to design a 3D printed housing becuse it somply wouldn't fit into my 3D printers build volume. I am instead going for a PCB "sandwitch" wit three PCBs per side. The main ones are already finished but I now need backplates and a front plate that is also going around the keyswitches.
 
@@ -49,3 +49,15 @@ I have now succesful finised creating the left and right PCBs. I was actually sp
   <img src="./journal%20files/2025-07-30/multiboard_LEFT.png" width=49% />
   <img src="./journal%20files/2025-07-30/multiboard_RIGHT.png" width=49% />
 </p>
+
+### Session 3 (30m) researching parts, creating BOM
+
+I have just finished reasearching some parts and searching for cheap components on Aliexpress. I also had the idea of actually doing two seperate design cause the case is probably getting really big and not everybody has a printer with such a buildvolume at home.
+
+## July 31st (6h)
+
+Finally finished with designing the case and placing all the components of the keyboard where they belong. Placing 120 keyswitches wasn't the best task in the world but at least in some areas I could arrange them in a normal rectengular grid. To make my keyboard a bit more special I decided to add some handrests which attach magnetically. I designed it in such a way that the magntes can bee added after printing the case so that you dont have to stop your print in insert them but rather do that later.
+
+<img src="./journal files/2025-07-31/keyboard_finished.png" />
+
+<img src="./journal files/2025-07-31/magnets_cut.png" />
